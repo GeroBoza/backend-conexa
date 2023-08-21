@@ -1,10 +1,10 @@
-# Backend Conexa Challenge - Boza Gerónimo
+# Backend Conexa challenge - Boza Gerónimo
 
 This is an application to get more knowledge about the star wars saga
 
 ## Installation
 
-Run the following command in the frontend-conexa folder.
+Run the following command in the backend-conexa folder.
 
 ```bash
 npm install
