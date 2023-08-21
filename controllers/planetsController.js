@@ -16,6 +16,20 @@ const controller = {
             });
         }
     },
+    getByName: async (req, res) => {
+        try {
+            const name = req.query.search;
+            const result = await axios.get(
+                `${process.env.SW_API_URL}/planets/?search=${name}`
+            );
+            const data = result.data;
+            return res.status(200).send(data);
+        } catch (error) {
+            return res.status(400).send({
+                message: "Ocurrió un problema intente nuevamente!",
+            });
+        }
+    },
     getOne: async (req, res) => {
         try {
             const id = req.params.id;
