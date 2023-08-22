@@ -23,3 +23,26 @@ At the root of the directory you should create an .env file with the following i
 ```
 
 You are ready to start using the app!
+
+## Available endpoints
+
+```bash
+ Films
+ ❯ /films/all
+ ❯ /films/:id
+
+ People
+ ❯ /people/all
+ ❯ /people/search
+ ❯ /people/:id
+
+ Starships
+ ❯ /starships/all
+ ❯ /starships/search
+ ❯ /starships/:id
+
+ Planets
+ ❯ /planets/all
+ ❯ /planets/search
+ ❯ /planets/:id
+```
